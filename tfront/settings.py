@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-		'/root/tfront/aws/templates',
+		'/home/ec2-user/tfront/aws/templates',
 		],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -123,3 +123,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/ec2-user/tfront/static/'
